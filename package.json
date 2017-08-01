@@ -14,7 +14,7 @@
     "build:es5": "buble lib -o dist-es5",
     "build:es6": "buble lib -o dist-es6 -t node:6",
     "prepublish": "npm run build:es5 && npm run build:es6",
-    "prepack": "npm run build:es5 && npm run build:es6",
+    "prepack": "npm run build:es5 && npm run build:es6"
   },
   "files": [
     "lib",
